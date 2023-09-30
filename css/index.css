@@ -35,11 +35,6 @@ a#Login{
 #Pricing{
     color: black;
 }
-
-}
-div{
-   justify: right;
-}
 #space{
     padding-left: 20px;
 }
@@ -57,5 +52,21 @@ div{
 -moz-box-shadow: 8px 6px 32px 3px rgba(0,0,0,0.79);
  
 }
+/*Responsive...*/
 
+@media only screen and (max-width: 600px) {
+    body{
+        background-image: url(https://www.xtrafondos.com/wallpapers/vertical/galaxia-en-el-espacio-4052.jpg) ;
+  }
+  #Features{
+    color: white;
+}
+
+#Pricing{
+    color: white;
+}
+
+
+
+}
 
