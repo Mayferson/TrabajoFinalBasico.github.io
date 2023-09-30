@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 body {
     font-family: 'Josefin Sans', sans-serif;
-    background-image: url(https://th.bing.com/th/id/R.65c0c3110c7957eb58a7fa68911c85d6?rik=xlNqaxD6Xk8fgQ&pid=ImgRaw&r=0) ;
-    justify-content:space-around;
+    background-image: url(https://th.bing.com/th/id/R.dab786824eb1b2462e01d7be42132891?rik=P4RYZIXut13j9w&riu=http%3a%2f%2f2.bp.blogspot.com%2f-j0h7zeEmMOU%2fUvWNdJcQmoI%2fAAAAAAAAAWE%2fLkn1XJCHpr0%2fs1600%2fpromesa-1600x1200.jpg&ehk=tzEPOqjdl5nPZA1IHgcqmJZ8TNWwS4WnD6euTVYXYh8%3d&risl=&pid=ImgRaw&r=0) ;
 
 }
 header{
@@ -12,12 +11,14 @@ header{
     justify-content: space-between;
     color: white;
     margin-right: 40px; margin-left: 20px; margin-top: 43px;
+    
 }
 
 a{
     color: white;
     padding-inline: 67px; padding-top: 17px; padding-bottom: 17px;
     text-decoration: none;
+    transition: 0.3s;
 }
 a:hover{
     font-size: 30px;
@@ -27,6 +28,13 @@ a#Login{
     border-style:groove;
     border-radius: 50px;
 }
+#Features{
+    color: black;
+}
+
+#Pricing{
+    color: black;
+}
 
 }
 div{
@@ -35,5 +43,19 @@ div{
 #space{
     padding-left: 20px;
 }
+#Content{
+    color: white;
+    padding: 15% 10% 10% 7%;
+    margin-right: 10%;
+   }
+#Bottom{
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: rgba(139, 86, 139, 0.616);
+    box-shadow: 8px 6px 32px 3px rgba(0,0,0,0.79);
+-webkit-box-shadow: 8px 6px 32px 3px rgba(0,0,0,0.79);
+-moz-box-shadow: 8px 6px 32px 3px rgba(0,0,0,0.79);
+ 
+}
 
-    
+
