@@ -1,6 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 body {
     font-family: 'Josefin Sans', sans-serif;
-    background-image: url(https://www.wallpaperuse.com/wallp/4-45555_m.jpg) ;
+    background-image: url(https://th.bing.com/th/id/R.65c0c3110c7957eb58a7fa68911c85d6?rik=xlNqaxD6Xk8fgQ&pid=ImgRaw&r=0) ;
+    justify-content:space-around;
+
+}
+header{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-right: 40px; margin-left: 20px; margin-top: 43px;
 }
 
+a{
+    color: white;
+    padding-inline: 67px; padding-top: 17px; padding-bottom: 17px;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 30px;
+}
+
+a#Login{
+    border-style:groove;
+    border-radius: 50px;
+}
+
+}
+div{
+   justify: right;
+}
+#space{
+    padding-left: 20px;
+}
+
+    
