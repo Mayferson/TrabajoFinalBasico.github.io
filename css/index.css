@@ -1,21 +1,22 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 body {
+    background-attachment:scroll;
+    background-size: cover;
     font-family: 'Josefin Sans', sans-serif;
-    background-image: url(https://th.bing.com/th/id/R.dab786824eb1b2462e01d7be42132891?rik=P4RYZIXut13j9w&riu=http%3a%2f%2f2.bp.blogspot.com%2f-j0h7zeEmMOU%2fUvWNdJcQmoI%2fAAAAAAAAAWE%2fLkn1XJCHpr0%2fs1600%2fpromesa-1600x1200.jpg&ehk=tzEPOqjdl5nPZA1IHgcqmJZ8TNWwS4WnD6euTVYXYh8%3d&risl=&pid=ImgRaw&r=0) ;
-
 }
 header{
     font-size: 20px;
     font-weight: bold;
     display: flex;
     justify-content: space-between;
-    color: white;
-    margin-right: 40px; margin-left: 20px; margin-top: 43px;
+    color: black;
+    margin-right: 40px; margin-left: 20px; margin-top: 23px;
     
 }
 
 a{
-    color: white;
+    color: black;
     padding-inline: 67px; padding-top: 17px; padding-bottom: 17px;
     text-decoration: none;
     transition: 0.3s;
@@ -28,20 +29,15 @@ a#Login{
     border-style:groove;
     border-radius: 50px;
 }
-#Features{
-    color: black;
-}
-
-#Pricing{
-    color: black;
+a.SocialRed {
+    padding: 1%;
 }
 #space{
     padding-left: 20px;
 }
 #Content{
-    color: white;
-    padding: 15% 10% 10% 7%;
-    margin-right: 10%;
+    color: black;
+    padding: 11% 10% 4% 7%;
    }
 #Bottom{
     text-decoration: none;
@@ -50,23 +46,74 @@ a#Login{
     box-shadow: 8px 6px 32px 3px rgba(0,0,0,0.79);
 -webkit-box-shadow: 8px 6px 32px 3px rgba(0,0,0,0.79);
 -moz-box-shadow: 8px 6px 32px 3px rgba(0,0,0,0.79);
- 
 }
-/*Responsive...*/
+.piedepagina {
+    background-color: rgba(0, 255, 234, 0.39);
+    
+}
 
-@media only screen and (max-width: 600px) {
+
+/*Responsive...*/
+@media only screen and (max-width: 1368px){
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+body {
+    background-attachment:scroll;
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    margin-right: 40px; margin-left: 20px; margin-top: 23px;
+    
+}
+
+a{
+    color: black;
+    padding-inline: 67px; padding-top: 17px; padding-bottom: 17px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    font-size: 23px;
+}
+
+a#Login{
+    border-style:groove;
+    border-radius: 50px;
+}
+a.SocialRed {
+    padding: 1%;
+}
+#space{
+    padding-left: 20px;
+}
+#Content{
+    color: black;
+    padding: 11% 10% 4% 7%;
+   }
+#Bottom{
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: rgba(139, 86, 139, 0.616);
+    box-shadow: 8px 6px 32px 3px rgba(0,0,0,0.79);
+-webkit-box-shadow: 8px 6px 32px 3px rgba(0,0,0,0.79);
+-moz-box-shadow: 8px 6px 32px 3px rgba(0,0,0,0.79);
+}
+.piedepagina {
+    background-color: rgba(0, 255, 234, 0.39);
+    
+}
+}
+@media only screen and (max-width: 320px) {
     body{
         background-image: url(https://www.xtrafondos.com/wallpapers/vertical/galaxia-en-el-espacio-4052.jpg) ;
-  }
-  #Features{
-    color: white;
-}
-
-#Pricing{
-    color: white;
-}
-
-
-
+    }
+    a{
+        color: cadetblue;
+    }
 }
 

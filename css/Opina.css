@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    margin-right: 40px; margin-left: 20px; margin-top: 23px;
+}
+a {
+    color: black;
+    padding-inline: 67px; padding-top: 17px; padding-bottom: 17px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    font-size: 24px;
+    color: rebeccapurple;
+}
+#Login{
+    border-style: groove;
+    border-radius: 50px;
+}
+#space{
+    padding-left: 20px;
+}
