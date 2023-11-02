@@ -6,18 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
-    <link rel="stylesheet" href="css/IniciarSesión.css">
+    <link rel="stylesheet" href="css/Register-Login.css">
 </head>
 <body>
     <header>
         
-        <div class="logo"><i class='bx bx-planet'></i></i><a id="space"href="index.html">SCE</a></div>
+        <div><i class='bx bx-planet'></i></i><a id="space"href="index.html">SCE</a></div>
     </header>
-    <div>
-        <p><strong>Inicia sesión:</strong></p>
-        Email:      <input type="email" name="nombre" id="Email"> <br>
-        Contraseña: <input type="password" name="contraseña" id="password">
-        <p>Si aun no tienes cuenta, creala <a href="Register.html">aquí</a></p>
-    </div>
+    <section>
+        <h2>Login</h2>
+         <form id="loginForm">
+               <label>Mail:</label>
+               <input type="email" placeholder="example@gmail.com" id="email" required autofocus> 
+               <label>Contraseña:</label>
+               <input type="password" placeholder="12345678..." id="password" required> 
+               <input type="submit" value="Registro">
+        </form>
+        <p>No tienes cuenta? <a href="Register.html">Registrate</a></p>
+    </section>
+    
+    <script src="js/IniciarSesión.js"></script>
 </body>
 </html>

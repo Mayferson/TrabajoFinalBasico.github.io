@@ -13,7 +13,17 @@ header{
     justify-content: space-between;
     color: black;
     margin-right: 40px; margin-left: 20px; margin-top: 23px;
-
+}
+#logout{
+    font-size: 20px;
+    border-style: none;
+    background: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#logout:hover{
+    font-size: 30px;
+    
 }
 
 a{
@@ -28,14 +38,6 @@ a:hover{
      background-image: linear-gradient(to left, violet, blue, skyblue, indigo,  purple, indigo );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-a#Login{
-    background-image: linear-gradient(to left, violet, blue, skyblue, indigo,  purple, indigo );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border-style:dashed;
-    border-radius: 50px;
 }
 a.SocialRed {
     padding: 1%;
@@ -87,11 +89,6 @@ a{
 }
 a:hover{
     font-size: 23px;
-}
-
-a#Login{
-    border-style:groove;
-    border-radius: 50px;
 }
 a.SocialRed {
     padding: 1%;
