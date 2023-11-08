@@ -12,11 +12,26 @@
     <header>
         
         <div class="logo"><i class='bx bx-planet'></i></i><a id="space"href="index.html">SCE</a></div>
-        <nav><a href="QuienesSomos.html">¿Quienes somos?</a>
-            <a id="Features" href="QueHacemos.html">¿Qué hacemos?</a>
-            <a id="Login" href="IniciarSesión.html">Iniciar sesión.</a>
+        <nav><a href="SobreNosotros.html">¿Quienes somos?</a>
+            <button id="logout">logout</button>
          </nav>
-    </header>
+         </header>
+    <h1>Libro de Visitas</h1>
+
+    <!-- Formulario para dejar una opinión -->
+    <form id="opinionForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required><br>
+
+        <label for="opinion">Opinión:</label>
+        <textarea id="opinion" required></textarea><br>
+
+        <button type="submit">Enviar Opinión</button>
+    </form>
+
+    <!-- Lista de opiniones -->
+    <strong><ul id="opiniones"></ul></strong>
+    <script src="js/Opina.js"></script>
     
 </body>
 </html>

@@ -1,124 +1,196 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 body {
-    background-image: url('https://static.wikia.nocookie.net/ficcion-sin-limites/images/d/d0/Spess.png/revision/latest?cb=20220117015642&path-prefix=es');
-    background-attachment:scroll;
+    background: url('https://static.nationalgeographicla.com/files/styles/image_3200/public/49855.jpg?w=1900&h=1749') no-repeat center center fixed;
     background-size: cover;
+    color: #fff;
     font-family: 'Josefin Sans', sans-serif;
-}
-header{
-    font-size: 20px;
-    font-weight: bold;
+  }
+  
+  /* Estilos para el encabezado y el logotipo */
+  header {
+    background: rgba(0, 0, 0, 0.7); /* Fondo oscuro con transparencia */
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
-    color: black;
-    margin-right: 40px; margin-left: 20px; margin-top: 23px;
-}
-#logout{
-    font-size: 20px;
-    border-style: none;
-    background: none;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+  }
+  #space {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Estilos para los enlaces de navegación */
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 10px;
+  }
+  
+  /* Estilos para el botón de logout */
+  #logout {
+    background-color: #ea00ff93;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
     cursor: pointer;
-    transition: 0.3s;
-}
-#logout:hover{
-    font-size: 30px;
-    
-}
-
-a{
-    color: black;
-    padding-inline: 67px; padding-top: 17px; padding-bottom: 17px;
+    border-radius: 10px;
+  }
+  
+  #logout:hover {
+    background-color: #cc0000;
+  }
+  
+  /* Estilos para el contenido principal */
+  #Content {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro con transparencia */
+  }
+  
+  h1, h2, h3 {
+    color: #fff;
+  }
+  
+  /* Estilo para el enlace de registro */
+  #Buttom {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #34d5db;
+    color: #fff;
     text-decoration: none;
-    transition: 0.3s;
-   
-}
-a:hover{
-    font-size: 30px;
-     background-image: linear-gradient(to left, violet, blue, skyblue, indigo,  purple, indigo );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-a.SocialRed {
-    padding: 1%;
-}
-#space{
-    padding-left: 20px;
-}
-#Content{
-    color: black;
-    padding: 11% 10% 4% 7%;
-   }
-#Bottom{
+    border-radius: 10px;
+  }
+  
+  #Buttom:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Estilos para el pie de página */
+  .piedepagina {
+    background: rgba(0, 0, 0, 0.7); /* Fondo oscuro con transparencia */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .SocialRed {
+    margin: 0 10px;
     text-decoration: none;
-    border-radius: 50px;
-    background-color: rgba(139, 86, 139, 0.616);
-    box-shadow: 8px 6px 32px 3px rgba(0,0,0,0.79);
--webkit-box-shadow: 8px 6px 32px 3px rgba(0,0,0,0.79);
--moz-box-shadow: 8px 6px 32px 3px rgba(0,0,0,0.79);
-}
-.piedepagina {
-    background-color: rgba(0, 255, 234, 0.39);
-    
-}
+    color: #fff;
+  }
+  
+  /* Estilos para los íconos de redes sociales */
+  .bx {
+    font-size: 24px;
+  }
+  /* Resposive */
 
+  @media (max-width: 768px){
 
-/*Responsive...*/
-@media only screen and (max-width: 1368px){
-    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
 body {
-    background-attachment:scroll;
-    background-size: cover;
-    font-family: 'Josefin Sans', sans-serif;
-}
-header{
-    font-size: 16px;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-    color: black;
-    margin-right: 40px; margin-left: 20px; margin-top: 23px;
-    
+  background: url('https://static.nationalgeographicla.com/files/styles/image_3200/public/49855.jpg?w=1900&h=1749') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 10px; 
 }
 
-a{
-    color: black;
-    padding-inline: 67px; padding-top: 17px; padding-bottom: 17px;
-    text-decoration: none;
-    transition: 0.3s;
+/* Estilos para el encabezado y el logotipo */
+header {
+  background: rgba(0, 0, 0, 0.7); 
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
 }
-a:hover{
-    font-size: 23px;
+
+.logo {
+  font-size: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px; /* Agregado espacio entre el logotipo y la navegación */
+  margin-bottom: 10px; /* Agregado espacio en la parte inferior del logotipo */
 }
-a.SocialRed {
-    padding: 1%;
+
+/* Estilos para los enlaces de navegación */
+nav {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
 }
-#space{
-    padding-left: 20px;
+
+nav a {
+  margin-right: 10px; /* Reducción del espacio entre enlaces */
+  text-decoration: none;
+  color: #fff;
 }
-#Content{
-    color: black;
-    padding: 11% 10% 4% 7%;
-   }
-#Bottom{
-    text-decoration: none;
-    border-radius: 50px;
-    background-color: rgba(139, 86, 139, 0.616);
-    box-shadow: 8px 6px 32px 3px rgba(0,0,0,0.79);
--webkit-box-shadow: 8px 6px 32px 3px rgba(0,0,0,0.79);
--moz-box-shadow: 8px 6px 32px 3px rgba(0,0,0,0.79);
+
+/* Estilos para el botón de logout */
+#logout {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px; /* Agregado espacio en la parte superior del botón */
+  width: 100%; /* Ancho completo en pantallas pequeñas */
 }
+
+/* Estilos para el contenido principal */
+#Content {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5); /* Fondo oscuro con transparencia */
+}
+
+h1, h2, h3 {
+  color: #fff;
+}
+
+/* Estilo para el enlace de registro */
+#Bottom {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 10px; /* Agregado espacio en la parte superior del enlace */
+  width: 100%; /* Ancho completo en pantallas pequeñas */
+}
+
+/* Estilos para el pie de página */
 .piedepagina {
-    background-color: rgba(0, 255, 234, 0.39);
-    
+  background: rgba(0, 0, 0, 0.7); /* Fondo oscuro con transparencia */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.SocialRed {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Estilos para los íconos de redes sociales */
+.bx {
+  font-size: 24px;
 }
 }
-@media only screen and (max-width: 320px) {
-    body{
-        background-image: url(https://www.xtrafondos.com/wallpapers/vertical/galaxia-en-el-espacio-4052.jpg) ;
-    }
-    a{
-        color: cadetblue;
-    }
-}
+  
 

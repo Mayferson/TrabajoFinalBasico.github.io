@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+/*body {
+    background-attachment: scroll;
+    background-image: url('https://img1.wallspic.com/crops/3/0/1/3/7/173103/173103-tierra-la_astronomia-espacio-el_espacio_exterior-ambiente-1920x1080.jpg');
+    font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    margin-right: 40px; margin-left: 20px; margin-top: 23px;
+}
+a {
+    color: black;
+    padding-inline: 67px; padding-top: 17px; padding-bottom: 17px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    font-size: 24px;
+    color: rebeccapurple;
+}
+#Login{
+    border-style: groove;
+    border-radius: 50px;
+}
+#space{
+    padding-left: 20px;
+}
+.Fondos{
+    display: flex;
+    max-width: 30%;
+    max-height: 40%;
+}
+.width{
+    width: 100%;
+    height: 100%;
+}*/
+/* Estilos para el cuerpo de la página */
+body {
+    background-image: url('https://img1.wallspic.com/crops/4/9/2/5/25294/25294-pilares_de_la_creacin-3840x2160.jpg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Estilos para el título "¿Qué ofrecemos?" */
+  h1 {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Estilos para el contenido */
+  div {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+  
+  /* Estilos para el texto */
+  p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Estilos para el texto en negrita */
+  strong {
+    font-weight: bold;
+  }
+  
+  /* Estilos para saltos de línea dobles */
+  br {
+    margin: 20px 0;
+  }
+  
+  .opcion-card {
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .opcion-card p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .opcion-card img {
+    width: 50%; /* Puedes ajustar el tamaño aquí */
+    height: 50%; /* Puedes ajustar el tamaño aquí */
+    object-fit: cover; /* Mantiene la relación de aspecto y cubre el contenedor */
+    border-radius: 5px;
+  }
+  
+  
+  

@@ -1,29 +1,131 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+/* Estilos para el cuerpo de la página */
 body {
     font-family: 'Josefin Sans', sans-serif;
-}
-header{
-    font-size: 17px;
-    font-weight: bold;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.blogs.es/0c69af/astrology-astronomy-constellation-2034892/1366_2000.jpg');
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
-    color: black;
-    margin-right: 40px; margin-left: 20px; margin-top: 23px;
-}
-a {
-    color: black;
-    padding-inline: 67px; padding-top: 17px; padding-bottom: 17px;
-    text-decoration: none;
-    transition: 0.3s;
-}
-a:hover{
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
     font-size: 24px;
-    color: rebeccapurple;
-}
-#Login{
-    border-style: groove;
-    border-radius: 50px;
-}
-#space{
-    padding-left: 20px;
-}
+    color: #fff;
+  }
+  #space {
+    text-decoration: none;
+    color: white;
+  }
+
+  #logout {
+    background-color: #ea00ff93;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  #logout:hover {
+    background-color: #cc0000;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    padding: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Estilos para el título "Libro de Visitas" */
+  h1 {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Estilos para el formulario de opinión */
+  #opinionForm {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+  
+  /* Estilos para los campos del formulario */
+  #opinionForm label,
+  #opinionForm input,
+  #opinionForm textarea {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  #opinionForm label {
+    font-weight: bold;
+  }
+  
+  #opinionForm input[type="text"],
+  #opinionForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para el botón de enviar opinión */
+  #opinionForm button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  #opinionForm button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Estilos para la lista de opiniones */
+  #opiniones {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.24);
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .opinion {
+    background: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .opinion .nombre {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .opinion .contenido {
+    color: #666;
+  }
