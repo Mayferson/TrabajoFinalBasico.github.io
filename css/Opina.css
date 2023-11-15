@@ -10,8 +10,7 @@ body {
   
   /* Estilos para el encabezado */
   header {
-    background-color: #333;
-    color: #fff;
+    background: rgba(0, 0, 0, 0.7); /* Fondo oscuro con transparencia */
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
@@ -20,15 +19,37 @@ body {
   
   .logo {
     display: flex;
-    align-items: center;
     font-size: 24px;
-    color: #fff;
+    color: rgb(255, 255, 255);
   }
   #space {
     text-decoration: none;
-    color: white;
+    color: #fff;
+    transition: 0.3s;
   }
-
+  #space:hover{
+    font-size: 35px;
+  }
+  
+  
+  /* Estilos para los enlaces de navegación */
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 10px;
+    transition: 0.3s;
+  }
+  nav a:hover{
+    font-size: 20px;
+  }
+  
+  
+  /* Estilos para el botón de logout */
   #logout {
     background-color: #ea00ff93;
     color: #fff;
@@ -40,17 +61,6 @@ body {
   
   #logout:hover {
     background-color: #cc0000;
-  }
-  
-  nav {
-    display: flex;
-  }
-  
-  nav a {
-    padding: 10px;
-    margin-right: 20px;
-    text-decoration: none;
-    color: #fff;
   }
   
   /* Estilos para el título "Libro de Visitas" */

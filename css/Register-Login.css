@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
-:root{
-    --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-    --transition: all 0.1s cubic-bezier(0.645, 0.045, 0.355, 1)
-}
-#space{
-    text-decoration: none;
-}
 
+#Header {
+    display: flex;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+  }
+  #space {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+  }
+  #space:hover{
+    font-size: 35px;
+  }
+  #loginForm, #signupForm{
+    background-color: rgba(255, 255, 255, 0.103);
+  }
 * {
     margin:0;
     padding:0;
@@ -17,6 +24,7 @@
 
 body{
     font-family: 'Josefin Sans', sans-serif;
+    background-image: url('https://www.blogdelfotografo.com/wp-content/uploads/2012/01/silueta-estrellas-scaled.jpg');
 }
 
 section{
@@ -37,7 +45,7 @@ section h2{
     text-align:center;
     width: 100%;
     margin-bottom: 1em;
-    font-size: 2.5em
+    font-size: 2.5em;
 }
 
 section form{
@@ -46,7 +54,7 @@ section form{
     flex-wrap: wrap;
     max-width: 500px;
     border-radius: 20px;
-    border: 2px solid rgba(0,0,0,.1);
+    border: 2px solid rgba(0, 0, 0, 0.048);
 }
 
 section form label{
@@ -62,7 +70,7 @@ section form input{
     border-radius: 9px;
     border: none;
     outline-color: #003DFF;
-    background-color: #eee;
+    background-color: rgb(255, 255, 255);
 }
 
 section form input[type='submit']{
@@ -79,7 +87,6 @@ section form input[type='submit']:active{
 
 section p{
     margin-top: 1.5em;
-
 }
 
 
@@ -92,8 +99,6 @@ section p a{
 section button{
     background-color: #003DFF;
     color: #fff;
-    font-family: var(--font-mono);
-    transition: var(--transition);
     border: none;
     padding: 0.5em 1em;
     border-radius: 9px;
